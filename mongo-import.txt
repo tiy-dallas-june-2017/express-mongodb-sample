@@ -1,0 +1,4 @@
+{ "name": "steak", "cost": 8.99, "category": "meat" }
+{ "name": "chicken breast", "cost": 6.99, "category": "meat" }
+{ "name": "tomato", "cost": 0.79, "category": "vegetables" }
+{ "name": "banana", "cost": 0.20, "category": "fruit" }
