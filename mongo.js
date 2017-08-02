@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 let database = null;
 
 function connect(url, callback) {
-  // this is here to make sure no one accidentally creates to connections to the server, which is unnecessary.
+  // this is here to make sure no one accidentally creates two connections to the server, which is unnecessary.
   if (database !== null) {
     return database;
   }
